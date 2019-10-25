@@ -1,0 +1,193 @@
+* {
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
+
+.header-icon{
+ display: inline-block;
+ margin: 15px 30px;
+}
+
+.header-menu {
+ display: inline-block;
+}
+
+.header-menu ul li {
+ display: inline-block;
+ margin-right: 10px;
+}
+#main-image {
+  height: 500px;
+  /* background-image:url(images/main-image1.jpg); */
+  background-size: cover;
+}
+
+.main-message {
+  padding-top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+#prev {
+  position: absolute;
+  top: 280px;
+  left: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#next {
+  position: absolute;
+  top: 280px;
+  right: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.content-wrapper {
+  padding: 150px 0;
+  border-bottom: 1px solid gray;
+}
+
+.heading{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-list {
+  margin: 0 auto;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  float: left;
+  width: 33.3%;
+}
+
+.content img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+.button {
+  margin: 15px auto;
+  display: block;
+  color: white;
+  background-color: cyan;
+  padding: 5px 10px;
+  width: 20%;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact-wrapper {
+  margin: 100px 0;
+}
+
+.main-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control input, textarea {
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.footer-icon {
+  padding: 30px 20px;
+}
+
+/* ここからmodal */
+.modal {
+  background: #fff;
+  position: absolute;
+  width: 300px;
+  top: 40px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.modal img {
+  width: 300px;
+  height: 300px;
+}
+
+.modal p {
+  padding-bottom: 20px;
+}
+
+#mask {
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#mask.hidden {
+  display: none;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.close {
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

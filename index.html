@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>テスト1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-icon">
+      <h2>Gude</h2>
+    </div>
+    <div class="header-menu">
+      <ul>
+        <li>会社概要</li>
+        <li>サービス</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <div id="main-image" class="main-image">
+      <div class="main-message">
+        <h2>Gude</h2>
+        <p>大阪の若者に成長を</p>
+        <div id="prev">&lt;</div>
+        <div id="next">&gt;</div>
+      </div>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Content</h2>
+      </div>
+      <div class="content-list">
+        <div class="content">
+          <img src="images/programming.png" alt="">
+          <h2>heading</h2>
+          <p>samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample</p>
+          <div class="button">More</div>
+        </div>
+        <div class="content">
+          <img src="images/avatar.png" alt="">
+          <h2>heading</h2>
+          <p>samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample</p>
+          <div class="button">More</div>          
+        </div>
+        <div class="content">
+          <img src="images/company.png" alt="">
+          <h2>heading</h2>
+          <p>samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample</p>
+          <div class="button">More</div>  
+        </div>
+        <div class="clear"></div>
+
+        <!-- ここからmodal -->
+
+        <div id="mask" class="hidden"></div>
+        
+        <section class="modal hidden">
+          <img src="images/programming.png">
+          <h2>heading</h2>
+          <p>sample</p>
+          <div class="close">close</div>
+        </section>
+        <section class="modal hidden">
+          <img src="images/avatar.png">
+          <h2>heading</h2>
+          <p>sample</p>
+          <div class="close">close</div>
+        </section>
+        <section class="modal hidden">
+          <img src="images/company.png">
+          <h2>heading</h2>
+          <p>sample</p>
+          <div class="close">close</div>
+        </section>
+
+        <!-- ここまでmodal -->
+
+      </div>
+    </div>
+  </div>
+  <div class="contact-wrapper">
+    <div class="conatiner">
+      <div class="heading">
+        <h3>お問い合わせ</h3>
+      </div>
+      <div class="main-form">
+        <div class="form-control">
+          <p>お名前</p>
+          <input type="text" name="" placeholder="お名前">
+        </div>
+        <div class="form-control">
+          <p>メールアドレス</p>
+          <input type="text" name="" placeholder="メールアドレス">
+        </div>
+        <div class="form-control">
+          <p>お問い合わせ内容</p>
+          <textarea name="name"  cols="80" rows="8"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-icon">
+      <h2>Gude</h2>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
